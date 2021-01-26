@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  vault:
+    build:
+      context: docker
+      dockerfile: Dockerfile-vault
+    ports:
+      - 8200:8200
